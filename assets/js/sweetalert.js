@@ -6,14 +6,14 @@ Swal.fire(
 
   swal({
     title: "Estas seguro?",
-    text: "Once deleted, you will not be able to recover this imaginary file!",
+    text: "de registrar un equipo!",
     icon: "warning",
     buttons: true,
     dangerMode: true,
   })
   .then((willDelete) => {
     if (willDelete) {
-      swal("el cambio guardado", {
+      swal("cambio guardado", {
         icon: "success",
       });
     } else {
